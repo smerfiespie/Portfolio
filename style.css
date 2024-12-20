@@ -1,0 +1,102 @@
+/* MUST INCLUDE THESE PROPERTIES: background, color, font-family, font-size,
+height, margin, padding, text-align */
+body {
+  min-width: 350px;
+  font-family: arial;
+  background-color: black;
+  text-align: center;;
+}
+
+.box {
+  font-family: 'Arial Black';
+  background-color: darkblue;
+  color: darkred;
+  text-align: center;
+  height: 40px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 8px;
+}
+.round {
+  border-radius: 10px;
+}
+.ridge {
+border: 10px ridge orchid;
+}
+
+div {
+  width: 700px;
+  margin:auto;
+  padding: 20px; 
+}
+
+nav {
+  border: 3px solid blue;
+  font-size:18px ;
+  padding: 10px;
+  margin: auto;
+  width: 30%;
+  float: inherit;
+}
+
+img {
+  width: 300px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: darkred;
+  text-align: center;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: darkred;
+  text-align: center;
+}
+
+p {
+ font-family:Arial, Helvetica, sans-serif ;
+  font-size:16px ;
+  color: wheat ;
+  text-align: center;  
+  padding-left: 40px;
+  padding-right: 40px;
+}
+ul {
+  color: wheat;
+  padding-left: 20px;
+  margin: auto; 
+  width: 275px; 
+}
+ol {
+ color: wheat;
+  padding-left: 10px;
+  margin: auto;
+  width: 200px;
+}
+li {
+  text-align: center;
+}
+a {
+ font-family: Arial, Helvetica, sans-serif; 
+  font-size:18px ;
+}
+a:link { color: green;}
+a:visited { color:darkgreen;}
+a:hover { color:olive}
+a:active {color: olivedrab}
+
+footer {
+  background-color: blue;
+  color: black;
+  margin: 50px 0 50px 0;
+  padding: 10px 0;
+}
+
+
+nav:after {
+  content: " ";
+  display: table;
+  clear: both;
